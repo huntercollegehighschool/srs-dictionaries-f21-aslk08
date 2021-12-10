@@ -13,4 +13,6 @@ exponents(3)
 '''
 
 def exponents(exp): #do not change this line
-  pass #delete this line when you start writing your code
+  exp = int(exp)
+  expo = {i: i ** exp for i in range(2, 12)}
+  return expo
